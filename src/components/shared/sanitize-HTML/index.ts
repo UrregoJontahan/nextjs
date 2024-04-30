@@ -1,1 +1,1 @@
-export { SanitizeHTML } from "./sanitizeHTML";
+export { SanitizeHTML } from "./SanitizeHTML";
