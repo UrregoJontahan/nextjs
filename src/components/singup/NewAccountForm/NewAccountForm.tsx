@@ -9,6 +9,7 @@ export const NewAccountForm = () => {
   const [loading, setLoading] = useState<boolean>(false);
 
   const handleSubmit = async (e:any) =>{
+    e.preventDefault()
     const formData = new FormData(e.target);
     await handleCreateUser(formData)
   }

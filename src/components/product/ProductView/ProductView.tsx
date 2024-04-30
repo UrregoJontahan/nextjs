@@ -32,7 +32,7 @@ export const ProductView = ({ product }: ProductViewProps) => {
         <span className="text-secondary text-3xl font-bold">
           $ {product.price}
         </span>
-        <ProductViewItemsOrder maxQuantity={product.quantity} />
+        <ProductViewItemsOrder maxQuantity={product.quantity} product={product} />
       </section>
     </main>
   )
